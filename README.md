@@ -6,3 +6,5 @@ Author: Sonacé Cherif
 ## About Me
 Hi, I’m Sona
 I’m learning how to use GitHub Issues.
+## Fun Fact
+Hello world!
