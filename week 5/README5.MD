@@ -7,10 +7,10 @@
 
 The work was divided into four main scripts:
 
-fetch_data.py – downloads raw HTML pages containing book information.
-scrape_books.py – parses the HTML and extracts relevant book titles.
-clean_books.py – cleans and standardises the dataset for further processing.
-classify.py – trains and evaluates a machine learning model using TF-IDF and Logistic Regression.
+fetch_data.py : downloads raw HTML pages containing book information.
+scrape_books.py : parses the HTML and extracts relevant book titles.
+clean_books.py : cleans and standardises the dataset for further processing.
+classify.py : trains and evaluates a machine learning model using TF-IDF and Logistic Regression.
 
 All parts of the pipeline are fully automated and reproducible. Data is organised into dedicated folders (data/, logs/, src/), and the process can be run entirely using a Makefile.
 
