@@ -1,4 +1,4 @@
-# 📅 Week X: [Topic Name]
+# 📅 Week 2: [Bash Git Ruff]
 
 ## 🛠️ 1. What I Built
 - **Summary**:
