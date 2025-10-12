@@ -1,0 +1,21 @@
+## Conda Environment A
+Command:
+> conda activate /Users/sonacecherif/MLOps-Practical-1/envA
+> python -c "import numpy; print(numpy.__version__)"
+Output: 1.24.0
+Correct version, environment isolated
+
+##  Conda Environment B
+Command:
+> conda activate /Users/sonacecherif/MLOps-Practical-1/envB
+> python -c "import numpy; print(numpy.__version__)"
+Output: 1.24.0
+Correct version, environment isolated
+
+##  venv Environment (.sandboxA)
+Command:
+> source .sandboxA/bin/activate
+> pip install -r /Users/sonacecherif/MLOps-Practical-1/week4/requirements.txt
+> python -c "import numpy, pandas; print(numpy.__version__, pandas.__version__)"
+Output: 1.24.0 2.3.2
+Correct versions, environment isolated
